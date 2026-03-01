@@ -1,19 +1,17 @@
-# 📊 Mutual Fund Framework Analyzer
+#  Mutual Fund Framework Analyzer
 
 An interactive web application for comparing mutual fund selection frameworks, built on research from IIM Indore.
 
-## 🎯 What This Tool Does
+##  What This Tool Does
 
 - **Compares** different fund selection frameworks (IIM Framework vs Value Research)
 - **Simulates** investor outcomes with different strategies
 - **Visualizes** wealth paths, success probabilities, and risk metrics
 - **Educates** investors on framework differences
 
-## 🚀 Live Demo
+##  Live Demo
 
-[Your app will be deployed here once you follow the instructions below]
-
-## 🛠️ Local Development
+##  Local Development
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -34,7 +32,7 @@ streamlit run app.py
 
 4. Open your browser to `http://localhost:8501`
 
-## 🌐 Deploy to Streamlit Cloud (FREE)
+##  Deploy to Streamlit Cloud (FREE)
 
 ### Step 1: Create GitHub Repository
 
@@ -85,26 +83,26 @@ Once deployed, you can:
 - Embed it in presentations
 - Add it to your resume/portfolio
 
-## 📊 Features
+##  Features
 
 ### Current Features (v1.0)
-- ✅ Framework comparison (FW4 vs Value Research)
-- ✅ Custom framework builder with weight sliders
-- ✅ Interactive wealth growth visualizations
-- ✅ Benchmark beating probability analysis
-- ✅ Risk avoidance metrics
-- ✅ Multi-horizon evaluation (1Y, 3Y, 5Y, 7Y)
-- ✅ Responsive design
+-  Framework comparison (FW4 vs Value Research)
+-  Custom framework builder with weight sliders
+-  Interactive wealth growth visualizations
+-  Benchmark beating probability analysis
+-  Risk avoidance metrics
+-  Multi-horizon evaluation (1Y, 3Y, 5Y, 7Y)
+-  Responsive design
 
 ### Coming Soon (v2.0)
-- 🚧 SIP simulation (monthly/quarterly)
-- 🚧 Multiple start date testing
-- 🚧 Distribution analysis (best/median/worst outcomes)
-- 🚧 Regret probability maps
-- 🚧 PDF report export
-- 🚧 Framework stability tracking
+-  SIP simulation (monthly/quarterly)
+-  Multiple start date testing
+-  Distribution analysis (best/median/worst outcomes)
+-  Regret probability maps
+-  PDF report export
+-  Framework stability tracking
 
-## 📖 Methodology
+##  Methodology
 
 This tool implements a novel **Outcome Reliability Framework** developed through research at IIM Indore. 
 
@@ -116,7 +114,7 @@ Key differences from traditional rating systems:
 
 For full methodology, see the "Methodology" tab in the app.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -125,7 +123,7 @@ For full methodology, see the "Methodology" tab in the app.
 └── README.md          # This file
 ```
 
-## 🔧 Customization
+##  Customization
 
 ### Adding Your Own Framework Results
 
@@ -154,13 +152,13 @@ Edit the CSS in the `st.markdown()` section at the top of `app.py`
 
 Add new calculations in each tab section of the code.
 
-## 💡 Tips for Best Results
+##  Tips for Best Results
 
 1. **Use wide mode**: Set `layout="wide"` in page config (already done)
 2. **Cache data**: Use `@st.cache_data` for expensive computations (already implemented)
 3. **Mobile friendly**: Test on mobile devices - Streamlit is responsive by default
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### App won't load
 - Check that all files are uploaded to GitHub
@@ -177,28 +175,28 @@ Add new calculations in each tab section of the code.
 - Try a different browser
 - Clear browser cache
 
-## 📝 License
+##  License
 
 This is a research project created for educational purposes. Feel free to use and modify for academic or personal projects.
 
-## 🤝 Contributing
+##  Contributing
 
 This is a research project, but suggestions are welcome! Open an issue or reach out.
 
-## 📧 Contact
+##  Contact
 
 For questions about the methodology or collaboration opportunities, please reach out through:
 - GitHub Issues
 - [Your email if you want to share]
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **IIM Indore** for research support
 - **AMFI** for mutual fund data
 - **NSE** for benchmark indices
 - **Streamlit** for the amazing framework
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This tool is for **educational and research purposes only**. It is not investment advice. 
 
